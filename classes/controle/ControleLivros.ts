@@ -3,7 +3,7 @@ import { Livro } from "../modelo/Livro";
 const livros: Array<Livro> = [
   {
     codigo: 1,
-    codEditora: 2588954,
+    codEditora: 2,
     titulo: "Vidas Secas",
     resumo:
       "'Vidas Secas' denuncia o descaso social e a exploração humana. O romance conta a história de uma família de retirantes do sertão brasileiro.",
@@ -11,7 +11,7 @@ const livros: Array<Livro> = [
   },
   {
     codigo: 2,
-    codEditora: 6156253,
+    codEditora: 2,
     titulo: "O Assassinato No Expresso Oriente",
     resumo:
       "Hercule Poirot, detetive particular e oficial aposentado da polícia belga, toma o Expresso Taurus para Istambul.",
@@ -19,7 +19,7 @@ const livros: Array<Livro> = [
   },
   {
     codigo: 3,
-    codEditora: 6156253,
+    codEditora: 4,
     titulo: "Morte no Nilo",
     resumo:
       "A tranquilidade de um cruzeiro de luxo pelo Nilo chega ao fim quando o corpo de Linnet Doyle, uma bela e jovem milionária, é descoberto em sua cabine.",

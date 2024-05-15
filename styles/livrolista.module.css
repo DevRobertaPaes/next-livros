@@ -1,29 +1,30 @@
-table {
+/* eslint-disable */
+.table {
   border-collapse: collapse;
   width: 100%;
 }
 
-th,
-td {
+.th,
+.td {
   padding: 10px;
   text-align: left;
 }
 
-th {
+.th {
   background-color: #4a4a4a;
   color: white;
 }
 
-tr:nth-child(even) {
+.tr:nth-child(even) {
   background-color: #595959;
 }
 
-thead {
+.thead {
   background-color: #1a1a1a;
   color: white;
 }
 
-tbody {
+.tbody {
   background-color: #333;
   color: white;
 }

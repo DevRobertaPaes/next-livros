@@ -16,7 +16,7 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
       break;
     case "POST":
       try {
-        const body: Livro = req.body;
+        const body: Livro = JSON.parse(req.body);
         controleLivro.incluir(body);
         res.status(200).json({ message: "Sucesso" });
       } catch (error) {
